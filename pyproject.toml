@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdftools"
+version = "0.1.0"
+description = ""
+authors = ["Vincent Lo <vincentlo@greenaitech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+pypdf = "^5.0.1"
+
+[tool.poetry.scripts]
+pdftools = "pdftools.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
