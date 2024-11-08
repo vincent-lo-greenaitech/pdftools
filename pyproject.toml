@@ -13,6 +13,9 @@ pypdf = "^5.0.1"
 [tool.poetry.scripts]
 pdftools = "pdftools.cli:cli"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
