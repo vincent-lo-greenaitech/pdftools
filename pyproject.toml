@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pdftools"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Vincent Lo <vincentlo@greenaitech.com>"]
 readme = "README.md"
