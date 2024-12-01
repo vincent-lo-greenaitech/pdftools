@@ -1,14 +1,16 @@
 [tool.poetry]
 name = "pdftools"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Vincent Lo <vincentlo@greenaitech.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">3.9"
 click = "^8.1.7"
 pypdf = "^5.0.1"
+pillow = "^11.0.0"
+img2pdf = "^0.5.1"
 
 [tool.poetry.scripts]
 pdftools = "pdftools.cli:cli"
